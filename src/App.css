@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar {
+    background-color: #47607c;
+}
+.App {
+    background-color: #707070;
+}
