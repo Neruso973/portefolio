@@ -9,18 +9,18 @@ function About() {
         <img
           src={header}
           alt="banniere tech"
-          className="h-60 w-screen bg-contain"
+          className="h-72 w-screen bg-contain"
         />
       </header>
       <div>
-        <h2 className="text-center text-7xl text-[#1B2271]">Nelson NTEPP</h2>
+        <h2 className="text-center text-7xl text-[#1B2271] mt-8">Nelson NTEPP</h2>
         <h3 className="text-center text-5xl text-[#1B2271] mt-8">
           Développeur web Full-Stack junior
         </h3>
         <div className="bg-[#37b5ae] h-1 w-6/12 ml-[26rem] mt-8"></div>
       </div>
       <div className="flex place-content-around mt-16">
-        <div className="bg-white h-60 w-48 ml-16">
+        <div className="bg-white h-60 w-52 ml-16">
           <img src="" alt="" />
         </div>
         <div>
