@@ -17,7 +17,7 @@ function About() {
         <h3 className="text-center text-5xl text-[#1B2271] mt-8">
           Développeur web Full-Stack junior
         </h3>
-        <div className="bg-[#37b5ae] h-1 w-6/12 ml-[26rem] mt-8"></div>
+        <div className="bg-[#37b5ae] h-1 w-5/12 ml-[26rem] mt-8"></div>
       </div>
       <div className="flex place-content-around mt-16">
         <div className="bg-white h-60 w-52 ml-16">
