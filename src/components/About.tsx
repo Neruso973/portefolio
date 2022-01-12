@@ -10,7 +10,7 @@ function About() {
     <div className="h-screen flex place-content-center flex-col ">
       <h3 className="text-2xl ml-4">A PROPOS</h3>
       <div className="bg-[#1B2271] w-16 h-1 mb-6 ml-20"></div>
-      <div className="flex flex-col ml-[6%] w-[80%] h-[55%] bg-[#47607c] rounded-3xl xl:w-[95%] xl:ml-[2%] xl:h-[66%]">
+      <div className="flex flex-col ml-[6%] w-[80%] h-[55%] bg-[#47607c] rounded-3xl xl:w-[97%] xl:ml-[2%] xl:h-[68%]">
         <div className="flex place-content-center text-3xl text-[#1B2271] mt-3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
