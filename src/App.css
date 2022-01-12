@@ -3,9 +3,15 @@
 @tailwind utilities;
 
 .navbar {
-    background-color: #47607c;
+  background-color: #47607c;
 }
 .App {
-    background-color: #707070;
-    /* background-image: url("http://another-road.fr/assets/img/bg.jpg"); */
+  background-color: #707070;
+  /* background-image: url("http://another-road.fr/assets/img/bg.jpg"); */
+}
+.handleShow {
+  visibility: hidden;
+}
+.handleShow:hover {
+  visibility: visible;
 }

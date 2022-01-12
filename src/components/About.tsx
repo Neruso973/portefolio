@@ -36,7 +36,7 @@ function About() {
               className="h-[20rem] w-60 ml-8"
             />
             <div className="flex place-content-around ml-8 mt-5 w-60">
-              <a href="http://www.linkedin.com/in/nelson-ntepp-5a6224221">
+              <a href="http://www.linkedin.com/in/nelson-ntepp-5a6224221" target="_blank">
                 <svg
                   className="fill-black hover:fill-[#1B2271] w-16 mt-1"
                   viewBox="0 0 256 256"
@@ -49,7 +49,7 @@ function About() {
                   </g>
                 </svg>
               </a>
-              <a href="https://github.com/Neruso973/">
+              <a href="https://github.com/Neruso973/" target="_blank">
                 <svg
                   className="fill-black hover:fill-[#1B2271] w-16"
                   viewBox="0 0 256 250"
