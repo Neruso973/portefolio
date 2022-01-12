@@ -8,10 +8,10 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import Formations from "./components/Formations";
 import Projects from "./components/Projects";
 import Cv from "./components/Cv";
 import Footer from "./components/Footer";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -23,8 +23,8 @@ function App() {
         <div className="flex-auto ml-72 flex-col">
           <Switch>
             <Route path="/" element={<About />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/skills" element={<Skills />} />
-            <Route path="/formations" element={<Formations />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/cv" element={<Cv />} />
           </Switch>
