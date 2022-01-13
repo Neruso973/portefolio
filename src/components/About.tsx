@@ -1,5 +1,3 @@
-import github from "../assets/git.png";
-import linkedin from "../assets/linkedin.png";
 import photo from "../assets/photoPro.jpg";
 
 function About() {
@@ -7,7 +5,7 @@ function About() {
   let anniversaire = date - 1994;
 
   return (
-    <div className="h-screen flex place-content-center flex-col ">
+    <div className="h-screen flex place-content-center flex-col">
       <h3 className="text-2xl ml-4">A PROPOS</h3>
       <div className="bg-[#1B2271] w-16 h-1 mb-6 ml-20"></div>
       <div className="flex flex-col ml-[6%] w-[80%] h-[55%] bg-[#47607c] rounded-3xl xl:w-[97%] xl:ml-[2%] xl:h-[68%]">

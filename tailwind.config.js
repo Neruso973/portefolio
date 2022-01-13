@@ -19,10 +19,5 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
   },
-  variants: {
-    extend: {
-      visibility: ["responsive", "hover", "focus"],
-    },
-  },
   plugins: [],
 };

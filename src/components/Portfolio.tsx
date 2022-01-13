@@ -1,6 +1,6 @@
 interface Props {
   name: string;
-  screen: string;
+  screen: any;
   link: string;
   technos: Array<String>;
   github: string;
@@ -8,20 +8,19 @@ interface Props {
 function Portfolio({ name, screen, link, technos, github }: Props) {
   return (
     <div
-      className="filter w-72 h-[20rem] ml-12 hover:grayscale relative cursor-pointer shadow-lg rounded-2xl bg-center bg-cover transform hover:scale-110 transition duration-200 ease-out"
-      style={{ backgroundImage: `url('${screen}')` }}
+      className="filter w-72 h-[20rem] ml-12 my-12 hover:grayscale relative cursor-pointer shadow-lg rounded-2xl bg-center bg-cover transform hover:scale-110 transition duration-200 ease-out"
+      style={{ backgroundImage: `url(${screen})` }}
     >
       <a href={link} target="_blank">
         <div className="p-6 bg-black rounded-t-xl text-gray-200 bg-opacity-60 h-[20%]">
           <h2 className="text-3xl font-bold">{name}</h2>
         </div>
         <div className="h-[80%]">
-          <span className="invisible hover:visible z-50">
+          <span className="">
           Techno:
-          tetsuvzbojbvoqjkùn
               <ul>
-                 {technos.map((techno: String) => {<li>{techno}</li>})}
-              </ul>;
+                 {technos.map((techno) => {<li>{techno}</li>})}
+              </ul>
           </span>
         </div>
       </a>
